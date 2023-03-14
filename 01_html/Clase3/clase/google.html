@@ -1,0 +1,83 @@
+<!-- archivo html 5  -->
+<!DOCTYPE html>
+
+<!-- raiz html  -->
+<html lang="en">
+
+<!-- encabezado info navegador chrome, firefox, edge -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+</head>
+
+<!-- lo que verá el usuario en el navegador -->
+<body style="text-align: center;">
+    <!-- logo  -->
+    <img src="images/logoGoogleAnt.png" alt="google">
+
+    <!-- input y botones -->
+    <div style="background-color: rgb(236, 236, 236);">
+        <!-- texto -->
+        <div>Search the web using Google!</div>
+        <!-- cuadro de ingreso de texo, input -->
+        <input type="text" name="q" id="q" size="50">
+
+        <div>
+            <!-- select, lista desplegable -->
+            <select name="cantResult">
+                <option value="10">10 results</option>
+                <option value="25" >25 results</option>
+                <option value="50">50 results</option>
+            </select>
+  
+            <!-- botónes -->
+            <input type="button" value="Google Search">
+            <input type="button" value="I'm feeling lucky">
+        </div>
+        <!-- texto -->
+        <div >
+            Index contains - 25 millons pages
+        </div>
+
+    </div>
+
+    <!-- about caja blanca -->
+    <div>
+        <!-- no deben usar br está deprecado -->
+        <!-- <br> -->
+        <div >
+            <a href="#" >About Google!</a>
+        </div>
+        
+        <!-- no es buena práctica poner dos br para separar elementos -->
+        <!-- por ahora utilizamos esto x no sabemos css -->
+        <!-- <br><br> -->
+        <div>
+            <a href="#">Standford Search</a>
+            <a href="#">Linux Search</a>
+        </div>
+    </div>
+
+    <!-- get google gris -->
+    <div style="background-color: rgb(236, 236, 236);">
+        <!-- <div>
+            Get Google! updates monthly!
+        </div> -->
+        <p>
+            Get Google! updates monthly!
+        </p>
+        <div>
+            <input type="text" name="email" id="email" value="your e-mail">
+            <input type="button" value="Subscribe">
+            <a href="#">Archive</a>
+        </div>
+    </div>
+
+    <!-- copyright blanco-->
+    <div>
+        Copyright © 1997-8 Standford Universitiy
+    </div>
+</body>
+</html>
