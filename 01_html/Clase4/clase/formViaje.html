@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Solicitud de viaje</h4>
+
+    <form action="server/recepcionLoginFace.html" method="post">
+        <div>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        </div>
+        
+        <div>
+            <input type="text" name="ape" id="ape" placeholder="Apellido">
+        </div>
+
+        <div>
+            <input type="date" name="fechaViaje" id="fechaViaje" placeholder="Fecha de viaje">
+        </div>
+
+        <div>
+            <label for="foto">Foto de Perfil</label>
+            <input type="file" name="foto" id="foto" >
+        </div>
+
+        <div>
+            <input type="number" name="edad" id="edad" placeholder="edad" min="18" >
+        </div>
+
+        <div>
+            
+            <!-- (div>input[type="radio" name="mes" id="mes"]{Mes1})*12 -->
+            <div><input type="radio" name="mes" id="mes" value="1">Mes1</input></div>
+            <div><input type="radio" name="mes" id="mes" value="2">Mes2</input></div>
+            <div><input type="radio" name="mes" id="mes" value="3">Mes3</input></div>
+            <div><input type="radio" name="mes" id="mes" value="4">Mes4</input></div>
+            <div><input type="radio" name="mes" id="mes" value="5">Mes5</input></div>
+            <div><input type="radio" name="mes" id="mes" value="6">Mes6</input></div>
+            <div><input type="radio" name="mes" id="mes" value="7">Mes7</input></div>
+            <div><input type="radio" name="mes" id="mes" value="8">Mes8</input></div>
+            <div><input type="radio" name="mes" id="mes" value="9">Mes9</input></div>
+            <div><input type="radio" name="mes" id="mes" value="10">Mes10</input></div>
+            <div><input type="radio" name="mes" id="mes" value="11">Mes11</input></div>
+            <div><input type="radio" name="mes" id="mes" value="12">Mes12</input></div>
+        </div>
+
+        <br>
+        <div>
+            <label for="">Seleccione las mascotas con las que viajará</label>
+            <div><input type="checkbox" name="masc1" id="masc1" value="PERRO">Perro</input></div>
+            <div><input type="checkbox" name="masc2" id="masc2" value="GATO">Gato</input></div>
+            <div><input type="checkbox" name="masc3" id="masc3" value="VIBORA">Vibora</input></div>
+        </div>
+
+        <div>
+            <select name="prov" id="">
+                <option value="1">Mendoza</option>
+                <option value="2">Córdoba</option>
+                <option value="3">San Luis</option>
+                <option value="4">Mendoza</option>
+            </select>
+        </div>
+
+
+        <div>
+            <textarea name="obs" id="" cols="50" rows="5"></textarea>
+        </div>
+
+        <div>
+            <input type="reset" value="Limpiar">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+    
+</body>
+</html>

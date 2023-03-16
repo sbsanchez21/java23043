@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Login facebook, sin estilos ,ni lógica, ni server</h2>
+
+    <!-- dentro de la etiqueta form deben ir todos los inputs que deseasmos
+    enviar, y el botón submit para enviar la info  -->
+    <!-- para datos confidenciales como user y pass debemos usart method post -->
+    <form action="server/recepcionLoginFace.html" method="get">
+        <div>
+            <input type="email" name="user" id="user" placeholder="Correo electrónico" required >
+        </div>
+        <p>Coloque su password</p>
+        <div>
+            <input type="password" name="pass" id="pass" placeholder="Contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" maxlength="10">
+        </div>
+        <div>
+            <input type="submit" value="Iniciar Sesión">
+        </div>
+
+    </form>
+    
+    <form action="server/recepcionLoginFace.html" method="post">
+        <div>
+            <input type="email" name="user" id="user" placeholder="Correo electrónico" required >
+        </div>
+        
+        <div>
+            <input type="password" name="pass" id="pass" placeholder="Contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,15}" maxlength="10">
+        </div>
+        <div>
+            <input type="submit" value="Iniciar Sesión">
+        </div>
+
+    </form>    
+</body>
+</html>
