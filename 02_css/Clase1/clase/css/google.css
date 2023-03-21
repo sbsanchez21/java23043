@@ -1,0 +1,17 @@
+.encabezado {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: .5rem;
+}
+
+.imgPerfil {
+    width: 40px;
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    margin-left: .25rem;
+    margin-right: .25rem;
+}
