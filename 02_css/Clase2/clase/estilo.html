@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sytle2.css">
+
+    <style>
+        /* a {
+            background-color: red;
+            padding: 1rem;
+            margin: 1rem;
+            color: blue;
+        }
+
+        table {
+            background-color: lightcoral;
+            width: 50%;
+        } */
+
+        button {
+            background-color: blue!important;
+        }   
+
+        div {
+            background-color: red;
+            margin:1rem;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!-- html sin css (cascading style sheet) -->
+    <p title="ejemplo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, nesciunt.</p>
+
+    <!-- html versiones anteriores a html5, usabamos proiedades para darle estilo -->
+    <!-- No usar estilos como propiedades de una etiqueta -->
+    <p align="center" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, dolor?</p>
+
+    <!-- css, style o estilos -->
+    <!-- style inline -->
+    <div style="background-color: lightsalmon; padding: 1rem; text-align: center;">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus vel vero debitis tempora repellendus modi quisquam ex quas assumenda laboriosam delectus recusandae, optio non laudantium magnam ipsum dolore. Debitis, numquam.
+    </div>
+
+    <ul style="background-color: lightgrey; padding: 1rem; text-align: center; list-style: none;">
+        <li>cliente 1</li>
+        <li>cliente 2</li>
+        <li>cliente 3</li>
+        <li>cliente 4</li>
+        <li>cliente 5</li>
+    </ul>
+
+    <!-- style en head -->
+    <div><a href="">Link 1</a></div>
+    <div><a href="">Link 2</a></div>
+    <div><a href="">Link 3</a></div>
+    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, ullam?</div>
+    <div>holaaaaaaa</div>
+
+    <table>
+        <tr>
+            <td>Alumno 01</td>
+            <td>Alumno 02</td>
+            <td>Alumno 03</td>
+        </tr>
+        <tr>
+            <td>Alumno 01</td>
+            <td>Alumno 02</td>
+            <td>Alumno 03</td>
+        </tr>
+        <tr>
+            <td>Alumno 01</td>
+            <td>Alumno 02</td>
+            <td>Alumno 03</td>
+        </tr>
+        <tr>
+            <td>Alumno 01</td>
+            <td>Alumno 02</td>
+            <td>Alumno 03</td>
+        </tr>
+        <tr>
+            <td>Alumno 01</td>
+            <td>Alumno 02</td>
+            <td>Alumno 03</td>
+        </tr>
+    </table>
+
+    <h4>lista clientes</h4>
+    <table>
+        <tr>
+            <td>Cliente 1</td>
+            <td>Cliente 2</td>
+            <td>Cliente 3</td>
+        </tr>
+        <tr>
+            <td>Cliente 1</td>
+            <td>Cliente 2</td>
+            <td>Cliente 3</td>
+        </tr>
+        <tr>
+            <td>Cliente 1</td>
+            <td>Cliente 2</td>
+            <td>Cliente 3</td>
+        </tr>
+        <tr>
+            <td>Cliente 1</td>
+            <td>Cliente 2</td>
+            <td>Cliente 3</td>
+        </tr>
+        <tr>
+            <td>Cliente 1</td>
+            <td>Cliente 2</td>
+            <td>Cliente 3</td>
+        </tr>
+    </table>
+    <!-- table>tr*5>td*3{Cliente $} -->
+
+    <!-- style en archivo externo -->
+    <button>Enviar</button>
+    <button disabled="disabled">Limpiar</button>
+    
+    <button type="submit">Iniciar</button>
+
+    <button class="btnAzul">Enviar</button>
+    <button class="btnRojo">Enviar</button>
+
+    <!-- sobreescritura de estilos -->
+    <!-- style externo, style head, style inline -->
+    <div>
+        <button>Subir</button>
+        <button style="background-color: violet;">Upload</button>
+        <button style="background-color: red;">Reset</button>
+    </div>
+    
+
+    <!-- selectores -->
+    <!-- etiqueta -->
+    <a href="">enviar</a>
+    <a href="">bajar</a>
+    <div>
+        <input type="text" name="" id="">
+    </div>
+
+    <!-- clases -->
+    <div class="titulo">
+        Bienvenidos
+    </div>
+
+    <div class="subtitulo">
+        Página de inicio
+    </div>
+
+    <div class="texto">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore iure iste mollitia possimus assumenda aut corrupti minima quis sapiente porro cumque enim, repellat temporibus accusantium quod, in perspiciatis ducimus soluta.
+    </div>
+
+    <span class="titulo">Noticias</span>
+    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, similique et adipisci odio distinctio ex nam laudantium cupiditate fugit ipsa illo eveniet aperiam ut sed sunt modi cumque aspernatur deleniti!</p>
+
+    <a href="" class="titulo">titulo</a>
+
+    <a href="" class="btnRojo">Enviar</a>
+
+    <table class="tablaExpandida">
+        <tr>
+            <td>Cliente 1</td>
+            <td>Cliente 2</td>
+            <td>Cliente 3</td>
+        </tr>
+        <tr>
+            <td>Cliente 1</td>
+            <td>Cliente 2</td>
+            <td>Cliente 3</td>
+        </tr>
+        <tr>
+            <td>Cliente 1</td>
+            <td>Cliente 2</td>
+            <td>Cliente 3</td>
+        </tr>
+        <tr>
+            <td>Cliente 1</td>
+            <td>Cliente 2</td>
+            <td>Cliente 3</td>
+        </tr>
+        <tr>
+            <td>Cliente 1</td>
+            <td>Cliente 2</td>
+            <td>Cliente 3</td>
+        </tr>
+    </table>
+
+    <table class="tablaReducida">
+        <tr>
+            <td>Cliente </td>
+            <td>Cliente </td>
+            <td>Cliente </td>
+        </tr>
+        <tr>
+            <td>Cliente </td>
+            <td>Cliente </td>
+            <td>Cliente </td>
+        </tr>
+        <tr>
+            <td>Cliente </td>
+            <td>Cliente </td>
+            <td>Cliente </td>
+        </tr>
+        <tr>
+            <td>Cliente </td>
+            <td>Cliente </td>
+            <td>Cliente </td>
+        </tr>
+        <tr>
+            <td>Cliente </td>
+            <td>Cliente </td>
+            <td>Cliente </td>
+        </tr>
+    </table>
+</body>
+</html>

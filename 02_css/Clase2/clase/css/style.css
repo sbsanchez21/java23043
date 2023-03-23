@@ -1,0 +1,78 @@
+/* Página de inicio */
+table {
+    background-color: lightcoral;
+    border: 1px solid black;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: lightblue!important; /*aplica el estilo obligatoriamente, no puede ser pisado por otros*/
+    font-size: 1.3rem;
+    padding: .5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+a {
+    background-color: red;
+    padding: .5rem;
+    margin: 1rem;
+}
+
+input {
+    height: 40px;
+    background-color: lightblue;
+    font-size: 2rem;
+}
+
+.titulo {
+    font-size: 2rem;
+    background-color: lightcoral;
+    text-align: center;
+    padding: 1rem;
+    margin:1rem;
+}
+
+.subtitulo {
+    font-size: 1.3rem;
+    background-color: lightcoral;
+    text-align: center;
+    padding: 1rem;
+    margin:1rem;
+}
+
+.texto {
+    font-size: 1rem;
+    border: 0;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: justify;
+    background-color: white!important;
+
+}
+
+
+.btnAzul {
+    background-color: blue;
+}
+
+.btnRojo {
+    background-color: red;
+}
+
+.tablaExpandida {
+    width: 100%;
+    background-color: lightgreen;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.tablaReducida {
+    width: 50%;
+    background-color: lightcyan;
+    text-align: center;
+    font-size: 1rem;
+}
+
