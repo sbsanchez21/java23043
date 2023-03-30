@@ -1,0 +1,21 @@
+html {
+    font-size: 8px;
+}
+
+.caja {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#pos {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: blue;
+}

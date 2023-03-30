@@ -1,0 +1,20 @@
+span { 
+	background-color: red; 
+}
+
+
+div > span  { 
+	background-color: blue; 
+}
+
+span > div { 
+	background-color: green; 
+}
+
+#anuncio {
+	background-color: yellow;
+	padding: 4rem;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}
