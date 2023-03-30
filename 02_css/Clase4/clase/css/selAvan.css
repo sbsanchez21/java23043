@@ -1,0 +1,46 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+
+ul li {
+    display: none;
+}
+
+a[href="www.google.com"] {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    width: 100px;
+}
+
+a[href="www.google.com"]:hover {
+    background-color: rgb(98, 96, 96);
+}
+
+a[href="www.facebook.com"] {
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    width: 100px;
+}
+
+a:hover ul {
+        display: block;
+}
+
+
+a[href="www.facebook.com"]:hover {
+    background-color: rgb(83, 83, 248);
+}
+
+input[type="text"] {
+    background-color: red;
+}
+
+input[type="number"] {
+    background-color: blue;
+}

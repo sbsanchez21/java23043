@@ -1,0 +1,72 @@
+.encabezado {
+    /* text-align: right; */
+    /* border: 1px solid black; */
+    margin: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.encabezado > a {
+    margin-left: .4rem;
+    margin-right: .4rem;
+    font-size: .8rem;
+}
+
+.encabezado > a:hover {
+    text-decoration: underline;
+}
+
+.imgPerfil {
+    width: 35px;
+    height: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.formulario > form > input {
+    margin-bottom: 2rem;
+}
+
+.formulario input[type="submit"]:hover {
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.inputBusc {
+    width: 600px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+}
+
+.btnBusc {
+    border: 0;
+    padding: .5rem 1rem .5rem 1rem;
+    margin: 0 .5rem 0 .5rem;
+    /* padding-top: .5rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem; */
+    border-radius: 5px;
+    font-size: .9rem;
+    color: #3c4043;
+    background-color: rgb(244, 243, 243);
+}
