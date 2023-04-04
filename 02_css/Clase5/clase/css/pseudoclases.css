@@ -1,0 +1,62 @@
+html {
+    font-size: 16px;
+}
+
+input[type="button"] {
+    background-color: black;
+    color: white;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 5px;
+    font-weight: 500;
+    border: 0;
+}
+
+input[type="button"]:hover {
+    background-color: gray;
+    cursor: pointer;
+} 
+
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: lightgray;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+    
+}
+
+tr:nth-child(2n+1) {
+    background-color: lightgray;
+}
+
+input[type="text"]:required {
+    border: 1px solid red;
+}
+
+input[type="text"] {
+    background-color: lightgray;
+}
+
+input[type="text"]:focus {
+    background-color: white;
+}
+
+input[type="search"] {
+    border: 1px solid gray;
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+input[type="search"]:focus {
+    width: 200px;
+}
+

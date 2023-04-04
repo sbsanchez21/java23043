@@ -1,0 +1,26 @@
+.texto::first-line {
+    background-color: red;
+}
+
+.texto::first-letter {
+    font-size: 3rem;
+}
+
+img {
+    float: inline-start;
+}
+
+.nota::before {
+    content: "Leer Nota";
+    background-color: black;
+    color: white;
+}
+
+.cita::after {
+    content: "Cita al libro Martín fierro Pág.55";
+    font-style: italic;
+}
+
+div::selection {
+    background-color: yellow;
+}
