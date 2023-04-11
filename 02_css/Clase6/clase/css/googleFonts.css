@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Sedgwick+Ave+Display&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.noticia {
+    font-family: 'Sedgwick Ave Display', cursive;
+}
