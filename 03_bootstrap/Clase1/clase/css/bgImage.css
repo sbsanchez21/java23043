@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.presentacion {
+    background-image: url("../images/steve.png");
+    background-size: contain;
+    background-repeat: repeat;
+    padding: 1rem;
+    color: white;
+    
+}
