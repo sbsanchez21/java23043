@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 23-05-2023 a las 16:58:15
+-- Tiempo de generación: 24-05-2023 a las 01:30:34
 -- Versión del servidor: 10.4.14-MariaDB
 -- Versión de PHP: 7.4.10
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `php23084`
+-- Base de datos: `java23043`
 --
 
 -- --------------------------------------------------------
@@ -28,34 +28,22 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `clientes` (
-  `id` int(11) NOT NULL,
-  `nombre` varchar(45) DEFAULT NULL,
-  `apellido` varchar(45) DEFAULT NULL,
-  `dni` bigint(20) DEFAULT NULL,
-  `email` varchar(50) DEFAULT NULL
+  `id` int(11) DEFAULT NULL,
+  `nombre` varchar(50) DEFAULT NULL,
+  `apellido` varchar(50) DEFAULT NULL,
+  `dni` int(11) DEFAULT NULL,
+  `tel` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `clientes`
 --
 
-INSERT INTO `clientes` (`id`, `nombre`, `apellido`, `dni`, `email`) VALUES
-(1, 'Juan', 'Perez', 23333333, 'jperez@gmail.com'),
-(2, 'Lorena', 'Suarez', 25444555, '222'),
-(3, 'Kevin', 'Perez', 15666555, 'kperez@gmail.com');
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `vendedores`
---
-
-CREATE TABLE `vendedores` (
-  `id` int(11) DEFAULT NULL,
-  `nombre` varchar(50) DEFAULT NULL,
-  `apellido` varchar(50) DEFAULT NULL,
-  `dni` bigint(20) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+INSERT INTO `clientes` (`id`, `nombre`, `apellido`, `dni`, `tel`) VALUES
+(1, 'Juan', 'Perez', 25333555, 1156454654),
+(2, 'Kevin', 'Lopez', 40000223, 2147483647),
+(3, 'Matías', 'Nuñez', 43330223, NULL),
+(4, 'Jonatan', 'Viera', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -64,22 +52,19 @@ CREATE TABLE `vendedores` (
 --
 
 CREATE TABLE `ventas` (
-  `id` int(11) NOT NULL,
-  `producto` varchar(50) NOT NULL,
-  `cant` int(11) NOT NULL,
-  `fecha` date NOT NULL,
-  `precio` float DEFAULT NULL
+  `id` int(11) DEFAULT NULL,
+  `producto` varchar(50) DEFAULT NULL,
+  `cant` int(11) DEFAULT NULL,
+  `fecha` date DEFAULT NULL,
+  `precio` double DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Índices para tablas volcadas
+-- Volcado de datos para la tabla `ventas`
 --
 
---
--- Indices de la tabla `clientes`
---
-ALTER TABLE `clientes`
-  ADD PRIMARY KEY (`id`);
+INSERT INTO `ventas` (`id`, `producto`, `cant`, `fecha`, `precio`) VALUES
+(1, 'Licuadora', 2, '0000-00-00', 5000.5);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
